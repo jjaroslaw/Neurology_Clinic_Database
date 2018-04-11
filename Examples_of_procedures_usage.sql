@@ -1,4 +1,4 @@
-call insert_patient(NULL,'Ewa','Adams','90110310908','1990-11-03','PL','Lodz','91-150 Lodz','Konstytucyjna 120','608934008','female',NULL,'2016-04-09');
+call insert_patient(NULL,'Ewa','Hill','90110310908','1990-11-03','PL','Lodz','91-150 Lodz','Konstytucyjna 120','608934008','female',NULL,'2016-04-09');
 call insert_patient(NULL,'Robert','Lewis','84121013749','1984-12-10','IT','Warsaw','00-001 Warsaw','Wilcza 123/12','723998063','male',NULL,'2017-04-23');
 
 call insert_doctor(NULL,'Michal','Peterson','84092411985','1984-09-14','IE','Dublin','Dublin 1','Abbey St 15','678090223','male','1205249', 'Neuropathologist','2013-05-15');
