@@ -151,7 +151,7 @@ alter table result_from_referral add constraint result_from_referral_fk1 foreign
 alter table result_from_referral add constraint result_from_referral_fk2 foreign key (icd10) references icd10(icd10_code);
 
 alter table appointments add constraint appointments_fk1 foreign key (licence_number) references doctors(licence_number);
-alter table appointments add constraint appointments_fk2 foreign key (results_id) references examination_result(examination_result_id);
+alter table appointments add constraint appointments_fk2 foreign key (results_id) references results(results_id);
 alter table appointments add constraint appointments_fk3 foreign key (patient_id) references patients(patient_id);
 
 alter table examination_result add constraint examination_result_fk1 foreign key (appointment_id) references appointments(appointment_id);
